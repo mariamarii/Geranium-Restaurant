@@ -1,0 +1,122 @@
+html{
+	scroll-behavior:smooth;
+}
+body {
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+	font-family:'poppins',serif;
+	background: fixed;
+    background-image:url('menucover2.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu-div{
+	margin-top: 10%;
+	display: grid;
+	place-items: center;
+	align-content: center;
+}
+
+#menu-word{
+    
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size:50px;
+	position:absolute;
+	top:50%;
+    right: 49%;
+    bottom: 50%;
+    text-align:center;
+    color:#b04b0c;
+}
+
+#menu-content{
+	display: grid;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+}
+
+#img-plate{
+    background-color: #edc9938c;
+	border-radius: 50px;
+    height: 200px;
+    width: 200px;
+	position: absolute;
+	left: 30%;
+}
+#des-plate{
+	border-radius: 50px;
+    height: 200px;
+    width: 300px;
+    background-color: #edc9938c;
+    background-clip: padding-box;
+	position: absolute;
+	top: 70%;
+	left: 45%;
+}
+#img-name{                           
+	color:#b04b0c;
+	position: absolute;
+	top:37%;
+	left: 22%;
+	font-weight: bold;
+	font-size: 20px;
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#img-source{
+	color:#b04b0c;
+	position: absolute;
+	top:52%;
+	left: 22%;
+	text-align:center;
+	font-size: 16px;
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+#catagories{
+	
+	background-color: #ffffff;
+	border-radius: 50px;
+	background-clip: padding-box;
+	height: 50px;
+	width: 520px;
+	position: absolute;
+
+	right: 35.7%;
+	display: grid;
+	place-items: center;
+	align-content: center;
+}
+#text-dishes{
+	color:#b04b0c;
+	position: absolute;
+	top:26%;
+	left: 38%;
+	text-align:center;
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.hidden {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+@media (prefers-reduce-motion) {
+	.hidden {
+		transition: none;
+	}
+}
+.show{
+	opacity: 1;
+	filter: blur(0px);
+	transform: translateX(0);
+}
+.plate:nth-child(2){
+	transition-delay: 200ms;
+}

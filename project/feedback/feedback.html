@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        
+        <link rel="stylesheet" href="feedback.css">
+        <link rel="stylesheet" href="../navbar.css">
+        <link href="icon.jpg" rel="shortcut icon" />
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200&display=swap" rel="stylesheet">
+        <!--fonts awesome for using icons as a text-->
+    </head>
+    <body>
+        <nav>
+            <div id="logo">
+                <a herf="../home/homepage.html">Geranium</a>
+            </div>
+            <div id="tabs">
+                <ul>
+                    <li><a href="../home/homepage.html" target="_blank">Home</a></li>
+                    <li><a href="../menu/Menu.html" target="_blank">Menu</a></li>
+                    <li><a href="../event/private.html" target="_blank">Events</a></li>
+                    <li><a href="../gallery/gallery.html" target="_blank">Gallery</a></li>
+                    <li><a href="../feedback/feedback.html" target="_blank">Feedback</a></li>
+                    <li><a href="../contactus/contactpage.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div> 
+        </nav>
+
+        <div class="container">
+            <form id="Form0" class="page0">
+                <div class="begin">
+                    <h2 >Restaurant Survey</h2> 
+                    <!-- <div class="btn-box"> -->
+                        <button type="button"  id="Next0" >Tell us what you think</button>
+                    <!-- </div>  -->
+                     
+                 </div>  
+            </form>
+ 
+              <form class="page1" id="Form1">
+                
+                    <h5 class="question-style">  1- Let's get going. When you first visited our restaurant, what was your overall impression of it? </h5>
+                    
+                    <div class="answers1">
+                        <label class="labelexpanded">
+                            <input type="radio" name="a1" id="radio" value="Really positive" required>
+                            <div class="radio-btns">
+                                <span id="emoji">  &#129321	</span> <br>
+                                <span id="text">A) Really positive</span>
+
+                            </div>
+                        </label>
+
+                        <label class="labelexpanded" >
+                            <input type="radio" name="a1"  value="Positive" required>
+                            <div class="radio-btns">
+                                <span id="emoji"> &#128513</span> <br>
+                                <span id="text">B) Positive</span>
+
+                            </div>
+                        </label>
+
+                        <label class="labelexpanded">
+                            <input type="radio" name="a1"  value="alright" required>
+                            <div class="radio-btns">
+                                <span id="emoji">&#128578</span> <br>
+                                <span id="text">C) It was alright</span>
+
+                            </div>
+                        </label>
+
+                        <label class="labelexpanded">
+                            <input type="radio" name="a1"  value="negative"required>
+                            <div class="radio-btns">
+                                <span id="emoji">&#128543</span> <br>
+                                <span id="text">D) Negative</span>
+
+                            </div>
+                        </label>
+
+                        <label class="labelexpanded">
+                            <input type="radio" name="a1"  value="Really negative" required>
+                            <div class="radio-btns">
+                                <span id="emoji">&#128544</span> <br>
+                                <span id="text">E) Really negative</span>
+
+                            </div>
+                        </label>
+
+                     
+                    
+                        <div class="btn-box">
+                        <button type="button" class="next" id="Next1" >Next</button>
+                        </div>
+                    </div>
+                </form>  
+                
+                <form class="page2"  id="Form2">
+                
+                   <h5 class="question-style">2- Thanks for your honesty. What would have to change in order for you to have a good service?</h5>
+                   <div class="answer2">  
+                    <input type="text" class="input-text" placeholder="Type your opinion here" required>
+                    </div>
+
+                    <div class="btn-box">
+                        <button type="button"  class="next" id="Next2">Next</button>
+                    </div>
+                
+                </form> 
+           
+         
+            <form class="page3"  id="Form3">
+                <h5 class="question-style">3- How would you rate us? </h5>
+               
+
+                <div class="answer3">
+                    
+                    <input type="radio" name="rate" id="star1" required>
+                    <label for="star1" class="star"> &#9733</label>
+                    <input type="radio" name="rate" id="star2" required>
+                    <label for="star2" class="star"> &#9733</label>
+                    <input type="radio" name="rate" id="star3" required>
+                    <label for="star3" class="star"> &#9733</label>
+                    <input type="radio" name="rate" id="star4" required>
+                    <label for="star4" class="star"> &#9733</label>
+                    <input type="radio" name="rate" id="star5" required>
+                    <label for="star5" class="star"> &#9733</label>
+                </div>
+                
+                <br> <br>
+                <div class="btn-box">
+                 <button  type="button" class="next" id="Next3">Next</button>
+                </div>
+                
+            </form>   
+
+            <form class="page4" id="Form4">
+               <h5 class="question-style">4- What do you think of our price? </h5>
+               <div class="answer4">
+                    <label class="text-btns">
+                        <input type="radio" name="money" >
+                        <div class="ans"><span>A</span> Expensive</div>
+                    </label>
+                    <label class="text-btns">
+                        <input type="radio"name="money" >
+                        <div class="ans"><span>B</span> Alright</div>
+                    </label>
+                    <label class="text-btns">
+                        <input type="radio" name="money" >
+                        <div class="ans"><span>C</span> cheap</div>
+                    </label>   
+                </div>
+
+                <div class="btn-box">
+                    <button type="button" class="next" id="Next4">Next</button>
+                </div> 
+               
+            </form> 
+
+            <form class="page5" id="Form5">
+                <h5 class="question-style">5- Will you re-visit our restaurant again? </h5>
+                <div class="answer5">
+                     <label class="text-btns">
+                         <input type="radio" name="visit" >
+                         <div class="ans"><span>A</span> Certainly</div>
+                     </label>
+                     <label class="text-btns">
+                         <input type="radio"name="visit" >
+                         <div class="ans"><span>B</span> Probably</div>
+                     </label>
+                     <label class="text-btns">
+                         <input type="radio" name="visit" >
+                         <div class="ans"><span>C</span> Never</div>
+                     </label>   
+                 </div>
+                
+                <div class="btn-box">
+                    <button type="Submit" class="next" id="Next5" onclick="document.location='project.html' ">Submit</button>
+                    <p class="thanks">Thanks for the feedback</p>
+                 </div>
+               
+            </form>   
+        </div>
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <script>
+            var Form0=document.getElementById("Form0");
+            var Form1 =document.getElementById("Form1");
+            var Form2 =document.getElementById("Form2");
+            var Form3 =document.getElementById("Form3");
+            var Form4 =document.getElementById("Form4");
+            var Form5 =document.getElementById("Form5");
+            var Form6 =document.getElementById("Form6");
+
+            var Next0=document.getElementById("Next0")
+            var Next1=document.getElementById("Next1");
+            var Next2=document.getElementById("Next2");
+            var Next3=document.getElementById("Next3");
+            var Next4=document.getElementById("Next4");
+
+
+            
+            Next0.onclick = function(){
+                Form0.style.left="-700px";
+                Form1.style.left= "40px";
+            }
+            Next1.onclick = function(){
+                Form1.style.left="-700px";
+                Form2.style.left= "40px";
+            }
+            Next2.onclick = function(){
+                Form2.style.left="-700px";
+                Form3.style.left= "40px";
+            }
+            Next3.onclick = function(){
+                Form3.style.left="-700px";
+                Form4.style.left= "40px";
+            }
+            
+            Next4.onclick = function(){
+                Form4.style.left="-700px";
+                Form5.style.left= "40px";
+            }
+      
+            // var Back1=document.getElementById("Back1");
+            // var Back2=document.getElementById("Back2");
+            // var Back3=document.getElementById("Back3");
+            // var Back4=document.getElementById("Back4");
+
+            // Back1.onclick = function(){
+            //     Form1.style.left="40px";
+            //     form2.style.left="900px";
+            // }
+        </script>
+
+    </body>
+</html>

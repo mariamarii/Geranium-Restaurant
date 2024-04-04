@@ -1,0 +1,38 @@
+html{
+	scroll-behavior:smooth;
+}
+body {
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+	font-family: 'poppins',serif;
+	background-image:url('homeimg.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* background-size: 1920px 1080px; */
+}
+
+
+#intro{
+	
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:white;
+}
+button{
+		font-size:20px;
+	background:none;
+	border:1px solid black;
+	color:white;
+	padding:10px 25px;
+border-radius:25px;}
+button:hover{
+	background:#ecdaba ;
+	color:black;
+}
+	
+

@@ -1,0 +1,201 @@
+body{
+	font-family:'poppins',serif;
+}
+.first_page{
+   background-image: url('background.jpg');
+   background-size:cover; 
+     padding-bottom:30px;
+}
+.second_page{
+	background-image : url('img1.jpeg');
+	background-size:cover; 
+	background-attachment:fixed;
+	padding-bottom:70px;
+}
+/*------------event---------*/
+
+*{
+	margin:0;
+	padding:0;
+}
+.centered{
+	background-image : url("img1.jpeg");
+	background-size:cover; 
+	background-position:fixed;
+	background-position:center center;
+	height:70vh;
+	width:100%;
+	
+}
+.centered:after{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.centered h1{
+	padding:10% 0 0 33%;
+	font-size:80px;
+	color:white;
+}
+.content{
+	width:100%;
+	padding-bottom:200px;
+	padding-top:100px;
+}
+.block1{
+	margin:auto auto;
+	width:50%;
+	text-align:center;
+}
+.block1 h1{
+	font-weight:bold;
+	font-size:60px;
+	color:black;
+	padding:auto auto;
+	
+}
+.block1 p{
+	font-size:20px;
+	color:black;
+	margin:auto auto;
+	
+}
+.img-hover-zoom{
+	height:300px;
+	width:450px;
+	overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+.row1{
+	padding-top:50px;
+	display: flex;
+    width: 70%;
+    margin: auto auto;
+}
+.block2{
+	width:50%;
+	height:10%;
+	margin:0 auto;
+	text-align:center;
+	
+}
+.block2 p{
+	font-size:20px;
+	color:black;
+	margin:auto auto;
+}
+#rights{
+	padding-left:100px;
+}
+.inquire{
+		font-size:20px;
+	background:none;
+	border:1px solid black;
+	color:black;
+	padding:10px 25px;
+    border-radius:25px;}
+.inquire:hover{
+	background:white;
+	color:black;
+}
+.block2 h4{
+	padding:20px 0;
+	font-size:20px;
+	font-weight:bold;
+}
+/*--------------form--------------*/
+.eventf{
+	background-color:white;
+	width :60%;	
+	height:60%;
+	margin:auto auto;
+	padding-bottom:5%;
+	text-align:center;
+	 display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+	font-family:Dancing Script;
+	font-size:50px;
+	padding:30px;
+}
+.row{
+	position:relative;
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+   
+
+}
+.eventf input, .eventf select{
+	display: block;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+	border-radius: 50px;
+	padding-left:40px;	
+    
+}
+.eventf input[type=date]:focus, input[type=text]:focus,input[type=number]:focus,select:focus,textarea:focus{
+  border-color: #E498B1 ;
+  box-shadow:0 0 8px 0  #E498B1;
+}
+textarea{
+	width:75%;
+	height:180px;
+	border:none;
+	font-size:15px;
+	
+}
+.submit{
+	font-size:20px;
+    font-family:Antic Slab;
+	background:none;
+	border:1px solid black;
+	color:black;
+	padding:10px 25px;
+    border-radius:6px;
+}
+.submit:hover{
+	background: #E498B1 ;
+	color:white;
+}
+.close {
+	border:none;
+		background:none;
+  font-size: 45px;
+  font-weight: 600;
+  transform: rotate(45deg);
+  color:white;
+}
+.colse:hover{
+	color:black;
+}
+.row i {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+
+}
+.row input[type="text"]:focus + i {
+  color:  #E498B1;
+}

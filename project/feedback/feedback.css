@@ -1,0 +1,188 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'poppins',serif;
+}
+
+.container{
+    background-image: URL("OIP\ \(23\).jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    width:800px;
+    height:460px;
+    padding :20px;
+    margin: 8% auto;
+    margin-top: 11%;
+    position: relative;  
+    overflow: hidden;  
+}
+
+.container form{
+    width: 700px;
+    position: absolute;
+    top:80px;
+    left: 40px;
+    
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+form .next{
+    width: 100px;
+    height: 35px;
+    margin: 0 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: linear-gradient( to right,#6c5a41,#DEB887 );
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left:85%;
+}
+
+form input {
+    display: none;
+}
+
+form h5{
+    font-size: 25px;
+    color: white;
+}
+
+                                  /* page0 */
+.container #Form0  {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .begin h2{
+    color:white;
+}
+
+ .container .begin button{
+    width: 200px;
+    height: 35px;
+    margin: 0 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: linear-gradient( to right,#6c5a41,#DEB887 );
+    border: 0;
+    outline: none;
+    cursor: pointer;   
+} 
+                      /* اول سؤال form (page1)                    */ 
+
+ .labelexpanded input:checked + .radio-btns{
+    background-color: rgba(14, 14, 14, 0.904);
+    color:antiquewhite;
+}
+
+.radio-btns{  
+    width: 100px;
+    height: 110px;
+    border-radius: 15px;
+    margin: 4px;
+   text-align: center;
+    box-shadow: 0 1px rgb(150, 148, 13);
+    cursor: pointer;
+    background-color: rgba(218, 202, 61, 0.992);
+    float: left;  
+}
+
+.answers1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.page1 #emoji{
+    font-size:50px;
+    color:grey; 
+}
+
+#text{
+    font-size: 15px;
+}
+
+                /* السؤال التاني form (page2) */
+form .input-text{
+    display:block;
+    border:none;
+    width: 80%;
+    height: 50px;
+    box-shadow: 0 1px rgb(14, 14, 4);
+    font-size: 20px;
+}
+                /* form (page3) السؤال التالت */
+
+ .page3 .answer3{
+    position:absolute;
+    top:100px;
+    left:40px;
+} 
+
+.page3 .answer3 label{
+    margin:10px;
+    padding :10px;
+    color:grey;
+    font-size: 40px;
+    transition: all 0.5s ease; 
+    float: right;
+}
+
+.page3 .answer3 input:not(:checked) ~ label:hover,
+.page3 .answer3 input:not(:checked) ~ label:hover ~label{
+    color: yellow;
+}
+
+.page3 .answer3 input:checked ~label{
+    color: gold;
+}
+                        /* form page4, page5 السؤال الرابع والخامس*/
+
+.page4 .answer4 .ans,
+.page5 .answer5 .ans {
+    font-size: 25px;
+    /* background-color: rgb(228, 141, 79); */
+    background-color: #DEB887;
+   border-radius: 5px;
+   padding: 10px;
+   height:30px;
+   width: 200px;
+   text-align: center;
+   margin-bottom: 30px;
+   cursor: pointer;  
+}
+
+.page4 .answer4 div span,
+.page5 .answer5 div span{
+    background-color: #ba986b;
+    padding:3px 6px;
+    position: absolute;
+    left:10px;
+}
+
+.page4 .answer4 .text-btns input:checked + .ans,
+.page5 .answer5 .text-btns input:checked + .ans{
+    background-color: rgb(157, 100, 63); 
+    color:azure 
+}
+
+.page5 .thanks{
+    position:absolute;
+    top:330px;
+    left:600px;
+    color:#ffad06;
+}
+
+#Form1, #Form2, #Form3, #Form4, #Form5, #Form6{
+    left:900px;
+}
