@@ -109,7 +109,7 @@ form h5{
 }
 
 #text{
-    font-size: 15px;
+    font-size: 10px;
 }
 
                 /* السؤال التاني form (page2) */
@@ -155,7 +155,7 @@ form .input-text{
     background-color: #DEB887;
    border-radius: 5px;
    padding: 10px;
-   height:30px;
+   height:35px;
    width: 200px;
    text-align: center;
    margin-bottom: 30px;
@@ -165,7 +165,7 @@ form .input-text{
 .page4 .answer4 div span,
 .page5 .answer5 div span{
     background-color: #ba986b;
-    padding:3px 6px;
+    padding:0px 6px;
     position: absolute;
     left:10px;
 }
